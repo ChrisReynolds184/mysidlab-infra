@@ -6,7 +6,7 @@
   become: true
   vars:
     hostname: chris-host
-    tz: America/Chicago
+    tz: America/NewYork
     
   tasks:
     - name: Set timezone to "{{ tz }}"
